@@ -1,0 +1,9 @@
+ .contact-heading span {
+    width: 100px;
+    height: 3px;
+    display: block;
+    background: linear-gradient(90deg, blue 50%, #fff 50%);
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+  }

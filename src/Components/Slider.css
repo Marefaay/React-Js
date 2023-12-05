@@ -1,0 +1,136 @@
+.h-500{
+    height: 550px !important;
+}
+.top-25{
+    top:30%
+}
+.left-10{
+    left: 20%;
+}
+.w-50{
+    width: 50%;
+}
+.ms-25{
+    margin-left: 25%;
+}
+.txt{
+    z-index: 3;
+}
+.txt button{
+    background-color: var(--main-bg);
+    border: none;
+    padding: 8px 25px;
+    color: var(--main-txt);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+.txt button:hover{
+    background-color: rebeccapurple;
+}
+.carousel-item p{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    color: #d1cfcf;
+    /* color: rgb(214, 214, 13); */
+    /* text-shadow: 0px 0px 5px #a79d9d; */
+}
+.carousel-item h2{
+    color: #fff;
+}
+.txt a {
+    background-color: var(--main-bg);
+    border: none;
+    padding: 8px 25px;
+    color: var(--main-txt);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+ .txt a:hover {
+    background-color: rebeccapurple;
+  }
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #0000005e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.carousel-control-next,
+.carousel-control-prev,.carousel-indicators{
+    z-index: 3 !important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: var(--main-bg) !important;
+
+}
+@media (max-width:1200px) {
+   
+    .carousel .carousel-inner .txt p{
+        font-size: 18px;
+        width: 75% !important;
+        margin-left:150px;
+    }
+
+    
+}
+@media (max-width:992px) {
+   
+    .carousel .carousel-inner .txt p{
+        font-size: 18px;
+        width: 75% !important;
+        margin-left:120px;
+    }
+
+    
+}
+@media (max-width:767px) {
+    .carousel .carousel-inner{
+        height: 400px !important;
+    }
+    .carousel .carousel-inner .txt{
+        top: 100px;
+    }
+    .carousel .carousel-inner .txt h2{
+        font-size: 18px;
+        /* font-weight: bolder; */
+    }
+    .carousel .carousel-inner .txt p{
+        font-size: 15px;
+        width: 75% !important;
+        margin-left:90px;
+    }
+
+    
+}
+@media (max-width:526px) {
+    .carousel .carousel-inner{
+        height: 400px !important;
+    }
+    .carousel .carousel-inner .txt{
+        top: 100px;
+    }
+    .carousel .carousel-inner .txt h2{
+        font-size: 18px;
+        /* font-weight: bolder; */
+    }
+    .carousel .carousel-inner .txt p{
+        font-size: 15px;
+        width: 75% !important;
+        margin-left:50px;
+    }
+
+    
+}

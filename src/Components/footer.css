@@ -1,0 +1,13 @@
+footer{
+    background-color:#512B81;
+color: var(--main-txt);
+text-align: center;
+padding: 10px;
+
+}
+span{
+    color: #4477ce;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}

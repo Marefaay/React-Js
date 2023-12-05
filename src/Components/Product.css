@@ -1,0 +1,95 @@
+.card {
+  /* height: 300px; */
+  /* padding: 20px; */
+  box-shadow: 0 0 13px -5px #fff;
+  transform: 0.5s ease-in-out;
+  position: relative;
+transition: 0.5s ease-in-out;
+  overflow: hidden;
+}
+.ovlay{
+  left: 40%;
+  bottom: 0;
+  color: #fff;
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+.ovlay h5{
+  
+  /* transition: 1s ease-in-out; */
+}
+.card::before{
+    content: "";
+    width: 100%;
+    height: 0%;
+    /* z-index: -1; */
+    background-color: #4477ce;
+transition: 0.3s ease-in-out;
+    position: absolute;
+    bottom:  0%;
+    left: 0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    /* transition: all 0.1s ease-in-out; */
+}
+.card:hover{
+    transform: 0.5s ease-in-out;
+    /* transform: scale(0.9); */
+}
+.card:hover .ovlay{
+  display: block;
+  transition: 0.3s ease-in-out;
+}
+.card:hover::before{
+    height: 100%;
+}
+.card:hover a{
+    display: block;
+    bottom: 60%;
+}
+.card a{
+  background-color: #fff;
+  text-decoration: none;
+  color: #000;
+  width: 35% !important;
+    left: 35%;
+    bottom: -15%;
+    /* display: none; */
+    transition: 0.6s ease-in-out;
+    z-index: 1;
+}
+.card a:hover{
+    background-color: rgb(155, 156, 158);
+    transition: 0.3s ease-in-out;
+    
+}
+.Text-box h3 {
+  text-wrap: nowrap;
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Text-box {
+  /* border-top: 1px solid #000; */
+  /* background-color: aqua; */
+  z-index: 2;
+  height: 50%;
+  padding: 15px;
+  background-color: #4477ce;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #fff !important;
+}
+.Text-box span{
+    /* color: blueviolet; */
+}
+.Img-box {
+  height: 50%;
+  padding: 15px;
+  /* margin: 10px 0; */
+}
+.Img-box img {
+  /* padding: 12px; */
+  height: 200px;
+  width: 800px;
+}

@@ -1,0 +1,29 @@
+.About .about-heading p {
+  font-size: 13px !important;
+
+  line-height: 0.8px !important;
+}
+.About .about-heading span {
+  width: 100px;
+  height: 3px;
+  display: block;
+  background: linear-gradient(90deg, blue 50%, #fff 50%);
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+}
+.About .about-main button {
+  background-color: var(--main-bg);
+  border: none;
+  padding: 8px 25px;
+  color: var(--main-txt);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+.About .about-main button:hover{
+    background-color: rebeccapurple;
+
+}
